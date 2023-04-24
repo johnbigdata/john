@@ -9,6 +9,11 @@ const sendMessageButton=document.querySelector("[name=send_message_button2]");
 
 websocketClient.onopen=function(message){
 console.log("client connected");
+document.getElementById('boton').style.display = 'block';
+document.getElementById('load_server').style.color = 'blue';
+
+var p = document.getElementById("load_server");
+p.innerHTML = "Completed connection";
 
 
 sendMessageButton.onclick=function(){
