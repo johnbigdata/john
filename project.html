@@ -2,8 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="assets/css/styles_project.css">
 
@@ -35,6 +34,9 @@
 
         <h2>Esta IA resuelve tus dudas</h2>
         <p>Las respuestas tardan 5 segundos</p>
+        <p id="load_server">
+            Connecting to server... wait some seconds
+        </p>
         <div class="scroll-container">
             <p id="p3" class="p">
 
@@ -43,7 +45,7 @@
 
         <form id="myform" class="input-form" onsubmit=";return false">
             <input id="paquete" class="input" type="text" name="name" placeholder="Enter your question"><br>
-            <input id="boton" type="submit" name=send_message_button2>
+            <input id="boton" type="submit" name=send_message_button2 hidden>
         </form>
 
         <p>Este proyecto esta centrado en la creación y despliegue de una API de comunicación en tiempo real basada en websockets incorporando una inteligencia artificial como valor añadido.
