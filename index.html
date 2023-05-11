@@ -2,35 +2,32 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
         <link rel="stylesheet" href="assets/css/styles.css">
+
 
         <title>John portfolio</title>
     </head>
     <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="index.html" class="nav__logo">Full Stack</a>
-                </div>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#blog" class="nav__link">Projects</a></li> 
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="https://www.linkedin.com/in/johngp97" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">Junior Developer</label>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="project.html">Proyecto 1</a></li>
+                <li><a href="project2.html">Proyecto 2</a></li>
+                <li><a href="project3.html">Proyecto 3</a></li>
+                <li><a href="https://linkedin.com/in/johngp97">Linkedin</a></li>
+            </ul>
+        </nav>
 
 
         <main class="l-main">
@@ -71,7 +68,7 @@
                                     <img src="assets/img/project3.png">
                                 </div>
                                 <div class="card_body">
-                                    <h2>Motor gráfico con C++ para visualización de piezas 3D</h2>
+                                    <h2>Webscraping</h2>
                                 </div>
                                 <a href="project3.html" class="button">Start</a>
                             </div>    
@@ -131,7 +128,7 @@ Actualmente estoy en busca de nuevas oportunidades para seguir aprendiendo y cre
 
         <!--===== FOOTER =====-->
         <footer class="footer">
-            <h3>FullStack developer</h3>
+            <h3>Junior Full Stack developer</h3>
             <p class="footer__copy">&#169 All rigths reserved</p>
         </footer>
 
